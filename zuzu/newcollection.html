@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .nav {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+            grid-column-gap: 15px;
+            position: relative;
+        }
+
+        .main {
+            height: 800px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .left {
+            background-image: url(vacation.jpg);
+        }
+
+        .right {
+            background-color: #F8ECEB;
+        }
+
+
+
+        .menu {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap: 15px;
+        }
+
+        .down {
+            color: white;
+        }
+
+        .up {
+            position: relative;
+        }
+
+        .text {
+            position: absolute;
+            font-size: 50px;
+            top: 100px;
+            left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="main">
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <div class="up">
+                    <div class="text"><b>New<br>collection</b></div>
+                </div>
+                <div class="down"></div>
+            </div>
+
+
+            <div class="nav">
+                <div class="logo"><b>ZUZU.</b></div>
+                <div class="menu">
+                    <div class="about">about</div>
+                    <div class="collections">collections</div>
+                    <div class="videos">videos</div>
+                    <div class="contact">contact</div>
+                </div>
+                <div class="ENG"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                    </svg>ENG</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

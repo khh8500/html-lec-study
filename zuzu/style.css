@@ -1,0 +1,27 @@
+body {
+    .out-box {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #F8ECEB;
+    }
+
+    .main {
+        padding: 0px 50px;
+    }
+
+    .nav {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: grid;
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap: 10px;
+    }
+}
