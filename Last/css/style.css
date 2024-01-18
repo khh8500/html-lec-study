@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("images/background.jpg");
+    height: 800px;
+    background-size: 100% 100%;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.search-box {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 430px;
+    height: 500px;
+    /* TODO: 나중에 지워야지*/
+    background-color: white;
+    box-shadow: 5px 5px 10px 0px rgb(187, 186, 186);
+}
+
+table {
+    width: 100%;
+}
+
+table input {
+    width: 100%;
+}
+
+.button {
+    display: grid;
+    justify-content: end;
+}
+
+.body {
+    /* 가운데 정렬 */
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+}
+
+.card-image {
+
+    height: 30px;
+    width: 30px;
+
+}
+
+.card-title {
+    display: grid;
+    align-items: center;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ad-img {
+    background-size: 100% 100%;
+}
+
+.img-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
